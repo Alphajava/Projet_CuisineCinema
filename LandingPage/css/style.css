@@ -1,0 +1,136 @@
+.blockPage {
+    width: 100%;
+}
+
+.pitch {
+    background-color: #f29234;
+    font-size: 34px;
+    text-align: center;
+    padding: 80px;
+    color: #b55d55;
+}
+
+.pitch > p {
+    margin: 0;
+    padding: 20px;
+}
+
+.compteur {
+    background-color: #b55d55;
+    text-align: center;
+}
+
+.compteur > p {
+    font-size: 72px;
+    color: #f29234;
+}
+
+img {
+    display: block;
+}
+
+/* ********************************************* */
+
+@font-face {
+    font-family: 'Digital 7';
+    src: url('https://res.cloudinary.com/dv1hhqgbr/raw/upload/v1540385998/digital-7_mcblw6.ttf');
+}
+
+.countdown-timer {
+    font-family: 'Digital 7';
+}
+
+.countdown-timer {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.countdown-timer>div {
+    display: inline-block;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.countdown-timer>div:after {
+    color: #A4A4A4;
+    display: block;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+
+.countdown-timer>.days:after {
+    content: 'days';
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.countdown-timer>.hours:after {
+    content: 'hours';
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.countdown-timer>.minutes:after {
+    content: 'minutes';
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+.countdown-timer>.seconds:after {
+    content: 'seconds';
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* ********************************************* */
+.imageCompteur {
+    width: auto;
+    margin: auto;
+}
+
+.blockForm {
+    background-color: #f29234;
+    color: #b55d55;
+    text-align: center;
+    padding: 100px;
+}
+
+.blockForm > p {
+    padding: 50px;
+}
+
+.textForm {
+    font-size: 60px;
+    margin: 0;
+}
+
+.abonneToi  {
+    font-size: 45px;
+    margin: 0;
+}
+
+footer {
+    background-color: #3c1e28;
+}
+
+.mentionsLegales {
+    color: #f29234;
+    font-size: 32px;
+    display: block;
+    text-align: right;
+    margin: 0;
+    padding: 40px;
+}
+
+input {
+    line-height: 30px;
+    background-color: #b55d55;
+    color: #f29234;
+}
